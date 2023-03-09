@@ -9,6 +9,6 @@ ${variaavel1}        teste
 
 
 *** Test Cases ***
-Cenario 1: teste teste
+Cenario 1: Abrir Navegador 
     Open Browser    https://www.youtube.com/?skip_registered_account_check=true    chrome
 
