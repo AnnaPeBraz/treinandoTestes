@@ -6,9 +6,14 @@ Library        SeleniumLibrary
 ${variaavel1}        teste
 
 *** Keywords ***
+abrir site yt
+    Open Browser    https://www.youtube.com/?skip_registered_account_check=true    chrome
 
+fechar site
+    Close Browser
 
 *** Test Cases ***
 Cenario 1: Abrir Navegador 
-    Open Browser    https://www.youtube.com/?skip_registered_account_check=true    chrome
+    abrir site yt
+    fechar site
 
