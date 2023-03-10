@@ -2,12 +2,12 @@
 Library        SeleniumLibrary
 
 *** Variables ***
-${input_name}    id:name
-${input_phone}    id:phone
+${input_name}    //input[@id="name"]
+${input_phone}    //input[@placeholder="Enter your mobile phone"]
 ${input_email}    id:email
 ${input_pass}    id:password
 ${textarea_address}    id:address
-${button_submit}    name:submit
+${button_submit}    //button[@name="submit"]
 
 *** Keywords ***
 abrir navegador

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230309 19:48:19.882" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230310 09:53:16.961" rpa="false" schemaversion="3">
 <suite id="s1" name="Aula2" source="C:\Users\ninha\Robot\aulas\aula2.robot">
 <test id="s1-t1" name="Cenario 1: Preencher formulario" line="30">
 <kw name="abrir navegador">
@@ -7,61 +7,61 @@
 <arg>https://itera-qa.azurewebsites.net/home/automation</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230309 19:48:20.485" level="INFO">Opening browser 'chrome' to base url 'https://itera-qa.azurewebsites.net/home/automation'.</msg>
-<status status="PASS" starttime="20230309 19:48:20.485" endtime="20230309 19:48:23.317"/>
+<msg timestamp="20230310 09:53:17.855" level="INFO">Opening browser 'chrome' to base url 'https://itera-qa.azurewebsites.net/home/automation'.</msg>
+<status status="PASS" starttime="20230310 09:53:17.852" endtime="20230310 09:53:22.490"/>
 </kw>
-<status status="PASS" starttime="20230309 19:48:20.485" endtime="20230309 19:48:23.317"/>
+<status status="PASS" starttime="20230310 09:53:17.852" endtime="20230310 09:53:22.490"/>
 </kw>
 <kw name="preencher campos">
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${input_name}</arg>
 <arg>Anna</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230309 19:48:23.317" level="INFO">Typing text 'Anna' into text field 'id:name'.</msg>
-<status status="PASS" starttime="20230309 19:48:23.317" endtime="20230309 19:48:23.536"/>
+<msg timestamp="20230310 09:53:22.490" level="INFO">Typing text 'Anna' into text field '//input[@id="name"]'.</msg>
+<status status="PASS" starttime="20230310 09:53:22.490" endtime="20230310 09:53:22.709"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${input_phone}</arg>
 <arg>123654789</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230309 19:48:23.536" level="INFO">Typing text '123654789' into text field 'id:phone'.</msg>
-<status status="PASS" starttime="20230309 19:48:23.536" endtime="20230309 19:48:23.752"/>
+<msg timestamp="20230310 09:53:22.715" level="INFO">Typing text '123654789' into text field '//input[@placeholder="Enter your mobile phone"]'.</msg>
+<status status="PASS" starttime="20230310 09:53:22.709" endtime="20230310 09:53:22.960"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${input_email}</arg>
 <arg>anna@anna.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230309 19:48:23.752" level="INFO">Typing text 'anna@anna.com' into text field 'id:email'.</msg>
-<status status="PASS" starttime="20230309 19:48:23.752" endtime="20230309 19:48:23.974"/>
+<msg timestamp="20230310 09:53:22.965" level="INFO">Typing text 'anna@anna.com' into text field 'id:email'.</msg>
+<status status="PASS" starttime="20230310 09:53:22.960" endtime="20230310 09:53:23.175"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${input_pass}</arg>
 <arg>asdfghj</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230309 19:48:23.974" level="INFO">Typing text 'asdfghj' into text field 'id:password'.</msg>
-<status status="PASS" starttime="20230309 19:48:23.974" endtime="20230309 19:48:24.191"/>
+<msg timestamp="20230310 09:53:23.175" level="INFO">Typing text 'asdfghj' into text field 'id:password'.</msg>
+<status status="PASS" starttime="20230310 09:53:23.175" endtime="20230310 09:53:23.401"/>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>${textarea_address}</arg>
 <arg>qwertyuiopasdfghjklxcvbnm</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20230309 19:48:24.191" level="INFO">Typing text 'qwertyuiopasdfghjklxcvbnm' into text field 'id:address'.</msg>
-<status status="PASS" starttime="20230309 19:48:24.191" endtime="20230309 19:48:24.433"/>
+<msg timestamp="20230310 09:53:23.403" level="INFO">Typing text 'qwertyuiopasdfghjklxcvbnm' into text field 'id:address'.</msg>
+<status status="PASS" starttime="20230310 09:53:23.402" endtime="20230310 09:53:23.643"/>
 </kw>
-<status status="PASS" starttime="20230309 19:48:23.317" endtime="20230309 19:48:24.433"/>
+<status status="PASS" starttime="20230310 09:53:22.490" endtime="20230310 09:53:23.643"/>
 </kw>
 <kw name="clicar em submit">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${button_submit}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20230309 19:48:24.433" level="INFO">Clicking element 'name:submit'.</msg>
-<status status="PASS" starttime="20230309 19:48:24.433" endtime="20230309 19:48:24.536"/>
+<msg timestamp="20230310 09:53:23.645" level="INFO">Clicking element '//button[@name="submit"]'.</msg>
+<status status="PASS" starttime="20230310 09:53:23.645" endtime="20230310 09:53:23.755"/>
 </kw>
-<status status="PASS" starttime="20230309 19:48:24.433" endtime="20230309 19:48:24.536"/>
+<status status="PASS" starttime="20230310 09:53:23.643" endtime="20230310 09:53:23.755"/>
 </kw>
-<status status="PASS" starttime="20230309 19:48:20.469" endtime="20230309 19:48:24.536"/>
+<status status="PASS" starttime="20230310 09:53:17.845" endtime="20230310 09:53:23.755"/>
 </test>
-<status status="PASS" starttime="20230309 19:48:19.882" endtime="20230309 19:48:24.540"/>
+<status status="PASS" starttime="20230310 09:53:16.966" endtime="20230310 09:53:23.755"/>
 </suite>
 <statistics>
 <total>
